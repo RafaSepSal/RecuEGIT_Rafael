@@ -17,11 +17,23 @@ public class Calculadora {
 	break;
 	case 2:
 		System.out.println("La resta es: " + (n1 - n2));
-	}
+	break;
+	case 3:
+		multiplicacion(n1, n2);
+		break;
+	case 4:
+		division(n1, n2);
+		
+	}}
 	
-	
-	
-	s.close();
-	}
+	public static void multiplicacion(int n1, int n2) {
+		System.out.println("Tu multiplicacion es: " + (n1 * n2));
 
+	}
+	public static void division(int n1, int n2) {
+		System.out.println("Tu división es: " + ((double)n1 / (double)n2));
+
+	}
+	
+	
 }
